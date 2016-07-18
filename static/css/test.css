@@ -1,0 +1,73 @@
+body {
+	padding: 20px;
+	font-family: ‘Lucida Console’, Monaco, monospace;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+
+#imageDiv {
+    background-image: url("../images/omar.jpg") ;
+}
+
+
+.center {
+    margin: auto;
+    text-align: center;
+
+}
+
+table {
+	width:100%;
+}
+
+th, td {
+
+	color:#721121;
+    
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #2B4162;
+
+}
+
+
+tr:hover {
+	background-color: #FFBF00
+}
+
+
+
+th {
+    background-color: #721121;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #2B4162;
+}
+
+li a {
+    display: block;
+    color: white;
+    /* left top bottom right */
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+a:hover {
+    background-color: #1B998B;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
